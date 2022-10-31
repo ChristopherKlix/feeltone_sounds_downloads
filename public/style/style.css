@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF624;
+}
+
+::selection {
+    background-color: #FFF624;
+    color: black;
+}
+
+#wrapper {
+    background: black;
+    min-height: 100vh;
+
+    display: grid;
+}
+
+header {
+    display: flex;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+#cover-artwork {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+footer {
+    display: flex;
+    margin: auto;
+    height: fit-content;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p#redirect-message {
+    font-weight: 800;
+    background-color: #FFF624;
+    color: black;
+    margin-bottom: 0.7rem;
+}
+
+p#connection-message {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
